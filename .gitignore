@@ -1,0 +1,70 @@
+# ─── Python ───────────────────────────────────────────────
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+MANIFEST
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# ─── Flask / App-specific ─────────────────────────────────
+# Auto-generated graph (regenerated on each run)
+static/mood_graph.png
+mood_graph.png
+
+# Uploaded or generated files
+uploads/
+instance/
+
+# ─── Data files (optional: remove if you want to track mood history) ──
+# mood_data.csv
+
+# ─── OS / IDE ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# ─── Misc ─────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*~
